@@ -4,14 +4,14 @@ from tkinter import ttk
 
 window = tk.Tk()
 window.title("tk")
-window.geometry("100x600")
+window.geometry("300x30")
 window.attributes("-topmost", True)
 
-entry1 = tk.Entry(window, width=10)
+entry1 = tk.Entry(window, width=10, relief=GROOVE)
 label1 = tk.Label(window, text="x")
-entry2 = tk.Entry(window, width=10)
+entry2 = tk.Entry(window, width=10, relief=GROOVE)
 label2 = tk.Label(window, text="=")
-entry3 = tk.Entry(window, width=20)
+entry3 = tk.Entry(window, width=20, relief=GROOVE)
 
 entry1.grid(row=1, column=1)
 label1.grid(row=1, column=2)
