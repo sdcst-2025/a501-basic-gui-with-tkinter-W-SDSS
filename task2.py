@@ -49,12 +49,13 @@ entry4.place(x=185, y=120)
 entry5.place(x=275, y=120)
 entry6.place(x=390, y=120)
 
-button2.place(x=2, y=150)
-button3.place(x=230, y=150)
-button4.place(x=450, y=150)
+button2.place(x=2, y=160)
+button3.place(x=190, y=150)
+button4.place(x=450, y=160)
 
 
 window.mainloop()
 
 #frame no color ga black...gray ni sitai
 #image no frame ga still gray...white or clear ni sitai
+# 'search by my name' no kado nakusu

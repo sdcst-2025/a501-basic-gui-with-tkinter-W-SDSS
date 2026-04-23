@@ -7,11 +7,11 @@ window.title("tk")
 window.geometry("300x30")
 window.attributes("-topmost", True)
 
-entry1 = tk.Entry(window, width=10, relief=GROOVE)
+entry1 = tk.Entry(window, width=10, relief=SOLID)
 label1 = tk.Label(window, text="x")
-entry2 = tk.Entry(window, width=10, relief=GROOVE)
+entry2 = tk.Entry(window, width=10, relief=SOLID)
 label2 = tk.Label(window, text="=")
-entry3 = tk.Entry(window, width=20, relief=GROOVE)
+entry3 = tk.Entry(window, width=20, relief=SOLID)
 
 entry1.grid(row=1, column=1)
 label1.grid(row=1, column=2)
@@ -20,3 +20,5 @@ label2.grid(row=1, column=4)
 entry3.grid(row=1, column=5)
 
 window.mainloop()
+
+# '=' wo sikaku de kakomu 
