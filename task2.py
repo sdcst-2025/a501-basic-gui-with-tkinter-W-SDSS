@@ -55,7 +55,3 @@ button4.place(x=450, y=160)
 
 
 window.mainloop()
-
-#frame no color ga black...gray ni sitai
-#image no frame ga still gray...white or clear ni sitai
-# 'search by my name' no kado nakusu

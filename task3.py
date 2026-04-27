@@ -4,7 +4,7 @@ from tkinter import ttk
 
 window = tk.Tk()
 window.title("Example")
-window.geometry("320x130")
+window.geometry("340x140")
 window.attributes("-topmost", True)
 window.configure(bg="white")
 
@@ -15,7 +15,7 @@ label2 = tk.Label(window, text="Pochacco!", bg="white")
 label3 = tk.Label(window, bg="aqua", font=3, text="A cuddly little puppy! This is from the same\ncreators who brought you Keropi and Kero Kero")
 
 label1.grid(row=1, column=1)
-label2.grid(row=1, column=2)
+label2.grid(row=1, column=1)
 label3.grid(row=2, column=1)
 
 window.mainloop()

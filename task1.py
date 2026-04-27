@@ -4,7 +4,7 @@ from tkinter import ttk
 
 window = tk.Tk()
 window.title("tk")
-window.geometry("300x30")
+window.geometry("280x30")
 window.attributes("-topmost", True)
 
 entry1 = tk.Entry(window, width=10, relief=SOLID)
@@ -20,5 +20,3 @@ label2.grid(row=1, column=4)
 entry3.grid(row=1, column=5)
 
 window.mainloop()
-
-# '=' wo sikaku de kakomu 
